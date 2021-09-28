@@ -23,4 +23,4 @@ npm run build
 
 #### Deployment
 
-To deploy, simply push to the `main` branch. This will trigger the build and deploy GitHub action and will automatically build the webapp and deploy it to GitHub pages. The built site can be viewed at: [brennanwilkes.github.io/csc375-client-website/](https://brennanwilkes.github.io/csc375-client-website/)
+To deploy, simply push to the `main` branch. This will trigger the build and deploy GitHub action and will automatically build the webapp and deploy it to GitHub pages. The built site can be viewed at: [brennanwilkes.github.io/csc375-analyst-website/](https://brennanwilkes.github.io/csc375-analyst-website/)
