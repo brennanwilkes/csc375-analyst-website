@@ -1,13 +1,49 @@
+:root{
+	--uvic-white: #FFF;
+	--uvic-blue: #005493;
+	--uvic-yellow: #F5AA1C;
+	--uvic-red: #C63527;
+	--uvic-darkblue: #002754;
+	--uvic-engineering: #F08415;
+
+	--gcs-base: #1c2630;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--gcs-base);
+	color: var(--uvic-white);
+}
+
+a{
+	color: var(--uvic-white);
+}
+
+a:hover{
+	color: var(--uvic-blue);
+}
+
+ a:active{
+	 color: var(--uvic-darkblue);
+ }
+
+
+h4, h5, h6{
+	font-weight: bold;
+}
+
+h1, h2, h3{
+	font-weight: bolder;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }
