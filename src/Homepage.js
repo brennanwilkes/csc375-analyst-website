@@ -1,4 +1,5 @@
-import './App.css';
+import './homepage.css';
+import './homepageAnimations.css'
 import BrennanWilkes from "./headshots/brennanwilkes.jpg";
 import PlaceHolder from "./headshots/placeholder.jpg";
 
@@ -20,35 +21,28 @@ const HeaderSubLink = (props) => (
 	</div>
 );
 
-const Headshot = (props) => {
-	const inner = (
+const Headshot = (props) => (
+	<a href={`mailto:${props.email}`} target="_blank">
 		<div className="Headshot">
 			<img src={props.src ?? PlaceHolder} alt="Team member headshot" />
 			<div>
+				<h6>{props.name ?? "Unknown"}</h6>
 				<h6>{props.role ?? "Unknown"}</h6>
 			</div>
 		</div>
-	);
-	if(props.email){
-		return (
-			<a href={`mailto:${props.email}`} target="_blank">
-				{inner}
-			</a>
-		)
-	}
-	return inner;
-}
+	</a>
+);
 
-function App() {
+function Homepage() {
 	return (
-		<div className="App">
+		<div className="Homepage">
 			<div>
 				<header>
 					<h1>CSC 375: Group 7</h1>
 					<h2>System Analysis Solutions</h2>
 					<div>
 						<HeaderSubLink name="Mission Statement" />
-						<HeaderSubLink name="Documents" />
+						<HeaderSubLink name="Important Documents" />
 						<HeaderSubLink name="Current Project" />
 						<HeaderSubLink name="Contact Us" />
 					</div>
@@ -63,7 +57,7 @@ function App() {
 					</p>
 				</header>
 				<div>
-					<Headshot src={BrennanWilkes} email="bwilkes@uvic.ca" role="Director of Web Technologies" />
+					<Headshot src={BrennanWilkes} email="bwilkes@uvic.ca" name="Brennan Wilkes" role="Director of Web Technologies" />
 					<Headshot />
 					<Headshot />
 					<Headshot />
@@ -75,4 +69,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Homepage;

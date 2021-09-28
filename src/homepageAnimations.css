@@ -1,0 +1,89 @@
+@-webkit-keyframes fadein {
+	0%	 { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes fadein {
+	0%	 { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-o-keyframes fadein {
+	0%	 { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes fadein {
+	0%	 { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+	0%	 { opacity: 0; }
+	50%	 { opacity: 1; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes fadeout {
+	0%	 { opacity: 0; }
+	50%	 { opacity: 1; }
+	100% { opacity: 0; }
+}
+@-o-keyframes fadeout {
+	0%	 { opacity: 0; }
+	50%	 { opacity: 1; }
+	100% { opacity: 0; }
+}
+@keyframes fadeout {
+	0%	 { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+@-webkit-keyframes growin {
+	0%  {transform:scaleX(0);}
+	100% {transform:scaleX(1);}
+}
+@-moz-keyframes growin {
+	0%  {transform:scaleX(0);}
+	100% {transform:scaleX(1);}
+}
+@-o-keyframes growin {
+	0%  {transform:scaleX(0);}
+	100% {transform:scaleX(1);}
+}
+@keyframes growin {
+	0%  {transform:scaleX(0);}
+	100% {transform:scaleX(1);}
+}
+
+header h1, header h2{
+	animation: fadein 0.5s ease-in-out;
+}
+
+header .HeaderSubLinkLink{
+	animation: fadein 1s;
+	animation-delay: 0.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+header p{
+	animation: fadein 1s;
+	animation-delay: 1s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.Headshot{
+	animation: fadein 1s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.Headshot > div{
+	animation: fadeout 3s;
+	opacity: 0;
+}
+
+a:nth-of-type(1) .Headshot, a:nth-of-type(1) .Headshot > div{ animation-delay: 1.25s; }
+a:nth-of-type(2) .Headshot, a:nth-of-type(2) .Headshot > div{ animation-delay: 1.5s; }
+a:nth-of-type(3) .Headshot, a:nth-of-type(3) .Headshot > div{ animation-delay: 1.75s; }
+a:nth-of-type(4) .Headshot, a:nth-of-type(4) .Headshot > div{ animation-delay: 2s; }
+a:nth-of-type(5) .Headshot, a:nth-of-type(5) .Headshot > div{ animation-delay: 2.25s; }
+a:nth-of-type(6) .Headshot, a:nth-of-type(6) .Headshot > div{ animation-delay: 2.5s; }
