@@ -1,7 +1,7 @@
 {
-    "name": "csc375-client-website",
+    "name": "csc375-analyst-website",
     "version": "0.1.0",
-    "homepage": "http://brennanwilkes.github.io/csc375-client-website",
+    "homepage": "http://brennanwilkes.github.io/csc375-analyst-website",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
