@@ -20,6 +20,14 @@ body {
 	justify-content: center;
 	background-color: var(--gcs-base);
 	color: var(--uvic-white);
+
+	/* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 a{
@@ -30,20 +38,10 @@ a:hover{
 	color: var(--uvic-blue);
 }
 
- a:active{
-	 color: var(--uvic-darkblue);
- }
-
-
-h4, h5, h6{
-	font-weight: bold;
-}
-
-h1, h2, h3{
-	font-weight: bolder;
+a:active{
+	color: var(--uvic-darkblue);
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-		monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

@@ -1,6 +1,8 @@
 :root{
 	--header-width: 500px;
-	--headshot-size: 300px;
+	--headshot-size: 275px;
+	--headshot-bg: var(--uvic-darkblue);
+	--headshot-color: var(--uvic-white);
 }
 
 header{
@@ -32,12 +34,14 @@ header p{
 	text-align: justify;
 	text-align-last: center;
 	font-size: 10pt;
+	margin: 4px;
 }
 
 
 header h1{
 	font-size: 42pt;
 	color: var(--uvic-blue);
+	font-weight: bold;
 }
 
 header h1::after{
@@ -65,15 +69,14 @@ header h2{
 	margin: 0.25rem;
 }
 
-.App > div:first-of-type{
+.Homepage > div{
 	min-height: 100vh;
-	width: 100vw;
 }
 
 header + div{
 	position: absolute;
-	right: 5vh;
-	bottom: 5vh;
+	right: 2.5vh;
+	bottom: 7.5vh;
 	max-width: min(calc(100vw - calc(var(--header-width) + 10vw)), calc(calc(var(--headshot-size) + 20px) * 3));
 	flex-wrap: wrap;
 	display: flex;
@@ -89,7 +92,7 @@ header + div{
 	margin: 10px;
 	overflow: hidden;
 	border-radius: 100%;
-	border: 2px solid var(--uvic-engineering);
+	border: 2px solid var(--headshot-bg);
 	position: relative;
 }
 
@@ -102,11 +105,11 @@ header + div{
 
 .Headshot > div{
 	position: absolute;
-	background-color: var(--uvic-engineering);
+	background-color: var(--headshot-bg);
 	z-index: 2;
 	width: 100%;
 	text-align: center;
-	color: var(--uvic-darkblue);
+	color: var(--headshot-color);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -121,7 +124,7 @@ header + div{
 	padding: 5px;
 	height: 40%;
 	opacity: 0;
-	transition: opacity 0.4s;
+	transition: opacity 0.3s;
 }
 
 .Headshot:hover div,
@@ -136,22 +139,32 @@ header + div{
 
 .Headshot > div > h6:first-of-type{
 	margin-bottom: 0.25rem;
-	font-size: 18pt;
+	font-size: 16pt;
 }
 
 .Headshot > div > h6:last-of-type{
 	margin-top: 0.25rem;
-	font-size: 14pt;
+	font-size: 12pt;
+}
+
+.arrow{
+	width: 75px;
+	height: 50px;
+	color: var(--uvic-white);
+	position: absolute;
+	bottom: 3%;
+	transition: transform 0.2s;
 }
 
 @media only screen and (min-width: 1160px) {
-	a > .Headshot:hover{
-		transform: scale(1.1);
+	.arrow:hover{
+		transform: scale(1.5);
+		cursor: pointer;
 	}
 }
 
 @media only screen and (max-width: 1160px) {
-	.App > div:first-of-type{
+	.Homepage > div:first-of-type{
 		width: 95vw;
 		display: flex;
 		flex-direction: column;
@@ -186,6 +199,9 @@ header + div{
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
+	}
 
+	.arrow{
+		display: none;
 	}
 }

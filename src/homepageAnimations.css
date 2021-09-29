@@ -15,19 +15,37 @@
 	100% { opacity: 1; }
 }
 
-@-webkit-keyframes fadeout {
+@-webkit-keyframes longfadein {
 	0%	 { opacity: 0; }
-	50%	 { opacity: 1; }
+	75%	 { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes longfadein {
+	0%	 { opacity: 0; }
+	75%	 { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-o-keyframes longfadein {
+	0%	 { opacity: 0; }
+	75%	 { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes longfadein {
+	0%	 { opacity: 0; }
+	75%	 { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+	0%	 { opacity: 1; }
 	100% { opacity: 0; }
 }
 @-moz-keyframes fadeout {
-	0%	 { opacity: 0; }
-	50%	 { opacity: 1; }
+	0%	 { opacity: 1; }
 	100% { opacity: 0; }
 }
 @-o-keyframes fadeout {
-	0%	 { opacity: 0; }
-	50%	 { opacity: 1; }
+	0%	 { opacity: 1; }
 	100% { opacity: 0; }
 }
 @keyframes fadeout {
@@ -77,7 +95,7 @@ header p{
 }
 
 .Headshot > div{
-	animation: fadeout 3s;
+	animation: fadeout 2s;
 	opacity: 0;
 }
 
@@ -87,3 +105,7 @@ a:nth-of-type(3) .Headshot, a:nth-of-type(3) .Headshot > div{ animation-delay: 1
 a:nth-of-type(4) .Headshot, a:nth-of-type(4) .Headshot > div{ animation-delay: 2s; }
 a:nth-of-type(5) .Headshot, a:nth-of-type(5) .Headshot > div{ animation-delay: 2.25s; }
 a:nth-of-type(6) .Headshot, a:nth-of-type(6) .Headshot > div{ animation-delay: 2.5s; }
+
+.arrow{
+	animation: longfadein 4s;
+}
