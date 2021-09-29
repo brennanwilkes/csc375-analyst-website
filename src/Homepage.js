@@ -14,7 +14,7 @@ Leo Ma - liyaoma@uvic.ca
 
 const HeaderSubLink = (props) => (
 	<div className="HeaderSubLinkLink">
-		<a href={props.href ?? ""} target="_blank">
+		<a href={props.href ?? ""} onClick={props.onClick} target="_blank">
 			<span>{props.name}</span>
 		</a>
 	</div>
@@ -35,10 +35,7 @@ const Headshot = (props) => (
 const DownArrow = (props) => (
 	<svg
 		className="arrow svg-inline--fa fa-angle-double-down fa-w-10"
-		ariaHidden="true"
 		focusable="false"
-		dataPrefix="fas"
-		dataIcon="angle-double-down"
 		role="img"
 		xmlns="http://www.w3.org/2000/svg"
 		viewBox="0 0 320 512"
