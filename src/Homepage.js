@@ -1,7 +1,10 @@
 import './homepage.css';
 import './homepageAnimations.css'
 import BrennanWilkes from "./headshots/brennanwilkes.jpg";
-import PlaceHolder from "./headshots/placeholder.jpg";
+import ArshSingla from "./headshots/arshsingla.jpg";
+import HeaderSubLink from "./components/HeaderSubLink";
+import Headshot from "./components/Headshot";
+import DownArrow from "./components/DownArrow";
 
 /*
 Arsh Singla - arshsingla02@gmail.com
@@ -11,39 +14,6 @@ Connor Hickton  - connorhickton@uvic.ca
 Jooah Bae - jooahbae@uvic.ca
 Leo Ma - liyaoma@uvic.ca
 */
-
-const HeaderSubLink = (props) => (
-	<div className="HeaderSubLinkLink">
-		<a href={props.href ?? ""} onClick={props.onClick} target="_blank">
-			<span>{props.name}</span>
-		</a>
-	</div>
-);
-
-const Headshot = (props) => (
-	<a href={`mailto:${props.email}`} target="_blank">
-		<div className="Headshot">
-			<img src={props.src ?? PlaceHolder} alt="Team member headshot" />
-			<div>
-				<h6>{props.name ?? "Unknown"}</h6>
-				<h6>{props.role ?? "Unknown"}</h6>
-			</div>
-		</div>
-	</a>
-);
-
-const DownArrow = (props) => (
-	<svg
-		className="arrow svg-inline--fa fa-angle-double-down fa-w-10"
-		focusable="false"
-		role="img"
-		xmlns="http://www.w3.org/2000/svg"
-		viewBox="0 0 320 512"
-		onClick={props.onClick}
-	>
-		<path fill="currentColor" d="M143 256.3L7 120.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0L313 86.3c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.4 9.5-24.6 9.5-34 .1zm34 192l136-136c9.4-9.4 9.4-24.6 0-33.9l-22.6-22.6c-9.4-9.4-24.6-9.4-33.9 0L160 352.1l-96.4-96.4c-9.4-9.4-24.6-9.4-33.9 0L7 278.3c-9.4 9.4-9.4 24.6 0 33.9l136 136c9.4 9.5 24.6 9.5 34 .1z"></path>
-	</svg>
-);
 
 function Homepage() {
 	return (
@@ -70,7 +40,7 @@ function Homepage() {
 				</header>
 				<div>
 					<Headshot src={BrennanWilkes} email="bwilkes@uvic.ca" name="Brennan Wilkes" role="Director of Web Technologies" />
-					<Headshot />
+					<Headshot src={ArshSingla} email="arshsingla02@gmail.com" name="Arsh Singla" role="" />
 					<Headshot />
 					<Headshot />
 					<Headshot />
