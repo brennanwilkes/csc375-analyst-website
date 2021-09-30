@@ -3,7 +3,7 @@ import './homepageAnimations.css'
 import BrennanWilkes from "./headshots/brennanwilkes.jpg";
 import ArshSingla from "./headshots/arshsingla.jpg";
 import ConnorHickton from "./headshots/connorhickton.jpg";
-
+import ChrisWong from "./headshots/chriswong.jpg";
 import Headshot from "./components/Headshot";
 import Header from "./components/Header";
 import DownArrow from "./components/DownArrow";
@@ -37,7 +37,12 @@ function Homepage() {
 					<Headshot src={ArshSingla} email="arsh98@uvic.com" name="Arsh Singla" role="" />
 					<Headshot src={ConnorHickton} name="Connor Hickton" email="connorhickton@uvic.ca" role="" />
 					<Headshot name="Leo Ma" email="liyaoma@uvic.ca" role="Requirements Analyst" />
+<<<<<<< HEAD
 					<Headshot name="Chris Wong" email="wongch@uvic.ca" role="" />
+=======
+					<Headshot src={ChrisWong} email="wongch@uvic.ca" name="Chris Wong" role="" />
+					<Headshot name="Connor Hickton" email="connorhickton@uvic.ca" role="" />
+>>>>>>> 33394543ccfc60649c1f52897f17aee7be5c7129
 					<Headshot name="Jooah Bae" email="jooahbae@uvic.ca" role="" />
 				</div>
 
