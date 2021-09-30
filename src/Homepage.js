@@ -40,7 +40,7 @@ function Homepage() {
 					<Headshot src={ArshSingla} email="arsh98@uvic.com" name="Arsh Singla" role="Principal Software Engineer" />
 					<Headshot src={ConnorHickton} name="Connor Hickton" email="connorhickton@uvic.ca" role="Project Manager" />
 					<Headshot name="Leo Ma" email="liyaoma@uvic.ca" role="Requirements Analyst" />
-					<Headshot src={ChrisWong} email="wongch@uvic.ca" name="Chris Wong" role="" />
+					<Headshot src={ChrisWong} email="wongch@uvic.ca" name="Chris Wong" role="Client & Public Relations" />
 					<Headshot name="Jooah Bae" email="jooahbae@uvic.ca" role="Project Analyst" />
 				</div>
 
@@ -78,11 +78,28 @@ function Homepage() {
 			<section id="documents">
 				<div>
 					<h2>Document Space</h2>
-					<h3>Public Corperate Documents and Minutes</h3>
+					<h3>Public Corperate Documents</h3>
 				</div>
 				<p>
 					<ul>
 						<Document href="RFP.pdf" label="Request For Proposal" />
+						<Document label="Project Charter" />
+						<Document label="Requirements Report Version 1.0" />
+						<Document label="Requirements Report Version 2.0" />
+						<Document label="Requirements Report Version 3.0" />
+						<Document label="Requirements Report Version 4.0" />
+					</ul>
+				</p>
+
+				<div>
+					<h2>Meeting Notes</h2>
+					<h3>Public Meeting Minutes</h3>
+				</div>
+				<p>
+					<ul>
+
+						<Document label="Sept. 27th - Client Meeting #1" />
+						<Document label="First Client - Analyst Meeting" />
 					</ul>
 				</p>
 			</section>
