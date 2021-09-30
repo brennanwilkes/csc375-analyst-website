@@ -5,6 +5,7 @@ import ArshSingla from "./headshots/arshsingla.jpg";
 import ConnorHickton from "./headshots/connorhickton.jpg";
 import ChrisWong from "./headshots/chriswong.jpg";
 import JooahBae from "./headshots/JooahBae.PNG";
+import LeoMa from "./headshots/Leo.jpg";
 import Headshot from "./components/Headshot";
 import Header from "./components/Header";
 import Document from "./components/Document";
@@ -40,7 +41,7 @@ function Homepage() {
 					<Headshot src={BrennanWilkes} email="bwilkes@uvic.ca" name="Brennan Wilkes" role="Director of Web Technologies" />
 					<Headshot src={ArshSingla} email="arsh98@uvic.com" name="Arsh Singla" role="Principal Software Engineer" />
 					<Headshot src={ConnorHickton} name="Connor Hickton" email="connorhickton@uvic.ca" role="Project Manager" />
-					<Headshot name="Leo Ma" email="liyaoma@uvic.ca" role="Requirements Analyst" />
+					<Headshot src={LeoMa} name="Leo Ma" email="liyaoma@uvic.ca" role="Requirements Analyst" />
 					<Headshot src={ChrisWong} email="wongch@uvic.ca" name="Chris Wong" role="Client & Public Relations" />
 					<Headshot src={JooahBae} name="Jooah Bae" email="jooahbae@uvic.ca" role="Project Analyst" />
 				</div>
@@ -84,7 +85,7 @@ function Homepage() {
 				<p>
 					<ul>
 						<Document href="RFP.pdf" label="Request For Proposal" />
-						<Document label="GANTT Chart" />
+						<Document href="GANTT.pdf" label="GANTT Chart" />
 						<Document label="Project Charter" />
 						<Document label="Requirements Report Version 1.0" />
 						<Document label="Requirements Report Version 2.0" />
@@ -99,8 +100,7 @@ function Homepage() {
 				</div>
 				<p>
 					<ul>
-						<Document label="Sept. 27th - Client Meeting #1" />
-						<Document label="First Client - Analyst Meeting" />
+						<Document href="Meeting-Sep27.pdf" label="Sept. 27th - Client Meeting #1" />
 					</ul>
 				</p>
 			</section>
