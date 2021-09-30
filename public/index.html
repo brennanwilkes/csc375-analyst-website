@@ -28,8 +28,17 @@
 			Learn how to configure a non-root public URL by running `npm run build`.
 		-->
 		<title>Group 7</title>
+		<script>
+			var callback = () => {
+				if (window.scrollY > window.innerHeight) {
+					document.getElementById("body").classList.remove("noScroll");
+					callback = () => {};
+				}
+			}
+			window.addEventListener("scroll", callback);
+		</script>
 	</head>
-	<body>
+	<body id="body" class="noScroll">
 		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div>
 		<!--

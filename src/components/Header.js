@@ -7,7 +7,7 @@ const Header = (props) => (
 		<div>
 			<HeaderSubLink name="Mission Statement" href="#mission-statement" target="" />
 			<HeaderSubLink name="Project & Client" href="#project" target="" />
-			<HeaderSubLink name="Important Documents" href="#documents" />
+			<HeaderSubLink name="Document Space" href="#documents" target="" />
 			<HeaderSubLink name="Contact Us" href="mailto:systemanalysissolution@gmail.com" />
 		</div>
 		{

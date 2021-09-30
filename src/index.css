@@ -20,13 +20,15 @@ body {
 	justify-content: center;
 	background-color: var(--gcs-base);
 	color: var(--uvic-white);
+}
 
+.noScroll{
 	/* Hide scrollbar for IE, Edge and Firefox */
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
 }
 
-body::-webkit-scrollbar {
+.noScroll::-webkit-scrollbar {
 	display: none;
 }
 

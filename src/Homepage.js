@@ -2,6 +2,8 @@ import './homepage.css';
 import './homepageAnimations.css'
 import BrennanWilkes from "./headshots/brennanwilkes.jpg";
 import ArshSingla from "./headshots/arshsingla.jpg";
+import ConnorHickton from "./headshots/connorhickton.jpg";
+
 import Headshot from "./components/Headshot";
 import Header from "./components/Header";
 import DownArrow from "./components/DownArrow";
@@ -33,9 +35,9 @@ function Homepage() {
 				<div>
 					<Headshot src={BrennanWilkes} email="bwilkes@uvic.ca" name="Brennan Wilkes" role="Director of Web Technologies" />
 					<Headshot src={ArshSingla} email="arsh98@uvic.com" name="Arsh Singla" role="" />
+					<Headshot src={ConnorHickton} name="Connor Hickton" email="connorhickton@uvic.ca" role="" />
 					<Headshot name="Leo Ma" email="liyaoma@uvic.ca" role="Requirements Analyst" />
 					<Headshot name="Chris Wong" email="wongch@uvic.ca" role="" />
-					<Headshot name="Connor Hickton" email="connorhickton@uvic.ca" role="" />
 					<Headshot name="Jooah Bae" email="jooahbae@uvic.ca" role="" />
 				</div>
 
