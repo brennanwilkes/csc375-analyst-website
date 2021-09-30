@@ -202,6 +202,12 @@ section:nth-of-type(n+2) h2::after{
 	margin-top: 52.5vh;
 }
 
+li{
+	font-weight: 100;
+	font-size: 14pt;
+	margin-left: 2vw;
+}
+
 
 @media only screen and (min-width: 1160px) {
 	.arrow:hover{

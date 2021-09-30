@@ -6,6 +6,7 @@ import ConnorHickton from "./headshots/connorhickton.jpg";
 import ChrisWong from "./headshots/chriswong.jpg";
 import Headshot from "./components/Headshot";
 import Header from "./components/Header";
+import Document from "./components/Document";
 import DownArrow from "./components/DownArrow";
 import Housing from "./housing.svg";
 import Birds from "./uvic-birds.png";
@@ -37,10 +38,10 @@ function Homepage() {
 				<div>
 					<Headshot src={BrennanWilkes} email="bwilkes@uvic.ca" name="Brennan Wilkes" role="Director of Web Technologies" />
 					<Headshot src={ArshSingla} email="arsh98@uvic.com" name="Arsh Singla" role="" />
-					<Headshot src={ConnorHickton} name="Connor Hickton" email="connorhickton@uvic.ca" role="" />
+					<Headshot src={ConnorHickton} name="Connor Hickton" email="connorhickton@uvic.ca" role="Project Manager" />
 					<Headshot name="Leo Ma" email="liyaoma@uvic.ca" role="Requirements Analyst" />
 					<Headshot src={ChrisWong} email="wongch@uvic.ca" name="Chris Wong" role="" />
-					<Headshot name="Jooah Bae" email="jooahbae@uvic.ca" role="" />
+					<Headshot name="Jooah Bae" email="jooahbae@uvic.ca" role="Project Analyst" />
 				</div>
 
 				<DownArrow onClick={(e) => {
@@ -70,7 +71,7 @@ function Homepage() {
 					<h3>Housing Consolidator (HOCO)</h3>
 				</div>
 				<p>
-					Housing Consolidator (HOCO) is an organization located in the Victoria region that aims to develop the right tool to help renters search for housing in the Capital Regional District .
+					Housing Consolidator (HOCO) is an organization located in the Victoria region that aims to develop the right tool to help renters search for housing in the Capital Regional District.
 				</p>
 				<img src={Housing} className="Housing" />
 			</section>
@@ -81,13 +82,7 @@ function Homepage() {
 				</div>
 				<p>
 					<ul>
-					<li>Document #1</li>
-					<li>Document #2</li>
-					<li>Document #3</li>
-					<li>Document #4</li>
-					<li>Document #5</li>
-					<li>Document #6</li>
-					<li>Document #7</li>
+						<Document href="RFP.pdf" label="Request For Proposal" />
 					</ul>
 				</p>
 			</section>
