@@ -190,6 +190,20 @@ section:nth-of-type(n+2) h2::after{
 	padding-bottom: 1vh;
 }
 
+.House, .Programmer{
+	width: 500px;
+	position: absolute;
+	right: 5vw;
+}
+
+.Programmer{
+	margin-top: 45vh;
+}
+
+.House{
+	margin-top: 55vh;
+}
+
 @media only screen and (min-width: 1160px) {
 	.arrow:hover{
 		transform: scale(1.5);
@@ -223,6 +237,11 @@ section:nth-of-type(n+2) h2::after{
 }
 
 @media only screen and (max-width: 1160px) {
+
+	.House, .Programmer{
+		display: none;
+	}
+
 	.Homepage > section{
 		width: 95vw;
 		display: flex;
