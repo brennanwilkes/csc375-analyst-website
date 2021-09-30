@@ -37,7 +37,7 @@ function Homepage() {
 				</></Header>
 				<div>
 					<Headshot src={BrennanWilkes} email="bwilkes@uvic.ca" name="Brennan Wilkes" role="Director of Web Technologies" />
-					<Headshot src={ArshSingla} email="arsh98@uvic.com" name="Arsh Singla" role="" />
+					<Headshot src={ArshSingla} email="arsh98@uvic.com" name="Arsh Singla" role="Principal Software Engineer" />
 					<Headshot src={ConnorHickton} name="Connor Hickton" email="connorhickton@uvic.ca" role="Project Manager" />
 					<Headshot name="Leo Ma" email="liyaoma@uvic.ca" role="Requirements Analyst" />
 					<Headshot src={ChrisWong} email="wongch@uvic.ca" name="Chris Wong" role="" />
