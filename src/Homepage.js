@@ -33,10 +33,10 @@ function Homepage() {
 				<div>
 					<Headshot src={BrennanWilkes} email="bwilkes@uvic.ca" name="Brennan Wilkes" role="Director of Web Technologies" />
 					<Headshot src={ArshSingla} email="arsh98@uvic.com" name="Arsh Singla" role="" />
-					<Headshot />
-					<Headshot />
-					<Headshot />
-					<Headshot />
+					<Headshot name="Leo Ma" email="liyaoma@uvic.ca" role="Requirements Analyst" />
+					<Headshot name="Chris Wong" email="wongch@uvic.ca" role="" />
+					<Headshot name="Connor Hickton" email="connorhickton@uvic.ca" role="" />
+					<Headshot name="Jooah Bae" email="jooahbae@uvic.ca" role="" />
 				</div>
 
 				<DownArrow onClick={(e) => {
@@ -52,9 +52,9 @@ function Homepage() {
 					Our company provides professional software and system solutions to clients from a range of businesses. While most of our clients are focused in the region of Victoria, we open our doors to clients from around British Columbia seeking to find the right and reliable professionals for software and system deployment, upgrade, installation, and maintenance.
 				</p>
 			</section>
-			<section id="current-project">
+			<section id="project">
 				<div>
-					<h2>Current Project</h2>
+					<h2>Project Description</h2>
 					<h3>The Victoria Housing Rental Consolidator</h3>
 				</div>
 				<p>
@@ -66,6 +66,23 @@ function Homepage() {
 				</div>
 				<p>
 					Housing Consolidator (HOCO) is an organization located in the Victoria region that aims to develop the right tool to help renters search for housing in the Capital Regional District .
+				</p>
+			</section>
+			<section id="documents">
+				<div>
+					<h2>Document Space</h2>
+					<h3>Public Corperate Documents and Minutes</h3>
+				</div>
+				<p>
+					<ul>
+					<li>Document #1</li>
+					<li>Document #2</li>
+					<li>Document #3</li>
+					<li>Document #4</li>
+					<li>Document #5</li>
+					<li>Document #6</li>
+					<li>Document #7</li>
+					</ul>
 				</p>
 			</section>
 		</div>
