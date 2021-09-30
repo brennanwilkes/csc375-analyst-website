@@ -4,6 +4,7 @@ import BrennanWilkes from "./headshots/brennanwilkes.jpg";
 import ArshSingla from "./headshots/arshsingla.jpg";
 import ConnorHickton from "./headshots/connorhickton.jpg";
 import ChrisWong from "./headshots/chriswong.jpg";
+import JooahBae from "./headshots/JooahBae.PNG";
 import Headshot from "./components/Headshot";
 import Header from "./components/Header";
 import Document from "./components/Document";
@@ -41,7 +42,7 @@ function Homepage() {
 					<Headshot src={ConnorHickton} name="Connor Hickton" email="connorhickton@uvic.ca" role="Project Manager" />
 					<Headshot name="Leo Ma" email="liyaoma@uvic.ca" role="Requirements Analyst" />
 					<Headshot src={ChrisWong} email="wongch@uvic.ca" name="Chris Wong" role="Client & Public Relations" />
-					<Headshot name="Jooah Bae" email="jooahbae@uvic.ca" role="Project Analyst" />
+					<Headshot src={JooahBae} name="Jooah Bae" email="jooahbae@uvic.ca" role="Project Analyst" />
 				</div>
 
 				<DownArrow onClick={(e) => {
@@ -83,6 +84,7 @@ function Homepage() {
 				<p>
 					<ul>
 						<Document href="RFP.pdf" label="Request For Proposal" />
+						<Document label="GANTT Chart" />
 						<Document label="Project Charter" />
 						<Document label="Requirements Report Version 1.0" />
 						<Document label="Requirements Report Version 2.0" />
@@ -97,7 +99,6 @@ function Homepage() {
 				</div>
 				<p>
 					<ul>
-
 						<Document label="Sept. 27th - Client Meeting #1" />
 						<Document label="First Client - Analyst Meeting" />
 					</ul>
