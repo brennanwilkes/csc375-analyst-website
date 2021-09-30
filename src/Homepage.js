@@ -79,7 +79,7 @@ function Homepage() {
 			<section id="documents">
 				<div>
 					<h2>Document Space</h2>
-					<h3>Public Corperate Documents</h3>
+					<h3>Public Corporate Documents</h3>
 				</div>
 				<p>
 					<ul>
