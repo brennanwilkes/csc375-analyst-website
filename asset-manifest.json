@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/csc375-analyst-website/static/css/main.0fb2ee94.chunk.css",
-    "main.js": "/csc375-analyst-website/static/js/main.16efea61.chunk.js",
-    "main.js.map": "/csc375-analyst-website/static/js/main.16efea61.chunk.js.map",
+    "main.css": "/csc375-analyst-website/static/css/main.f1947c88.chunk.css",
+    "main.js": "/csc375-analyst-website/static/js/main.58c14c86.chunk.js",
+    "main.js.map": "/csc375-analyst-website/static/js/main.58c14c86.chunk.js.map",
     "runtime-main.js": "/csc375-analyst-website/static/js/runtime-main.9b8fc418.js",
     "runtime-main.js.map": "/csc375-analyst-website/static/js/runtime-main.9b8fc418.js.map",
     "static/js/2.eb2b6ac1.chunk.js": "/csc375-analyst-website/static/js/2.eb2b6ac1.chunk.js",
@@ -10,17 +10,19 @@
     "static/js/3.2b91acc1.chunk.js": "/csc375-analyst-website/static/js/3.2b91acc1.chunk.js",
     "static/js/3.2b91acc1.chunk.js.map": "/csc375-analyst-website/static/js/3.2b91acc1.chunk.js.map",
     "index.html": "/csc375-analyst-website/index.html",
-    "static/css/main.0fb2ee94.chunk.css.map": "/csc375-analyst-website/static/css/main.0fb2ee94.chunk.css.map",
+    "static/css/main.f1947c88.chunk.css.map": "/csc375-analyst-website/static/css/main.f1947c88.chunk.css.map",
     "static/js/2.eb2b6ac1.chunk.js.LICENSE.txt": "/csc375-analyst-website/static/js/2.eb2b6ac1.chunk.js.LICENSE.txt",
     "static/media/arshsingla.2f2748f9.jpg": "/csc375-analyst-website/static/media/arshsingla.2f2748f9.jpg",
     "static/media/brennanwilkes.2791c2da.jpg": "/csc375-analyst-website/static/media/brennanwilkes.2791c2da.jpg",
     "static/media/chriswong.65e4fed4.jpg": "/csc375-analyst-website/static/media/chriswong.65e4fed4.jpg",
-    "static/media/connorhickton.9184e1b6.jpg": "/csc375-analyst-website/static/media/connorhickton.9184e1b6.jpg"
+    "static/media/connorhickton.9184e1b6.jpg": "/csc375-analyst-website/static/media/connorhickton.9184e1b6.jpg",
+    "static/media/housing.87bc8d42.svg": "/csc375-analyst-website/static/media/housing.87bc8d42.svg",
+    "static/media/uvic-birds.a6b8159f.png": "/csc375-analyst-website/static/media/uvic-birds.a6b8159f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9b8fc418.js",
     "static/js/2.eb2b6ac1.chunk.js",
-    "static/css/main.0fb2ee94.chunk.css",
-    "static/js/main.16efea61.chunk.js"
+    "static/css/main.f1947c88.chunk.css",
+    "static/js/main.58c14c86.chunk.js"
   ]
 }
