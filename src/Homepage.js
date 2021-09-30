@@ -7,7 +7,7 @@ import Header from "./components/Header";
 import DownArrow from "./components/DownArrow";
 
 /*
-Arsh Singla - arshsingla02@gmail.com
+Arsh Singla - arsh98@uvic.com
 Brennan Wilkes  - bwilkes@uvic.ca
 Chris Wong - wongch@uvic.ca
 Connor Hickton  - connorhickton@uvic.ca
@@ -32,7 +32,7 @@ function Homepage() {
 				</></Header>
 				<div>
 					<Headshot src={BrennanWilkes} email="bwilkes@uvic.ca" name="Brennan Wilkes" role="Director of Web Technologies" />
-					<Headshot src={ArshSingla} email="arshsingla02@gmail.com" name="Arsh Singla" role="" />
+					<Headshot src={ArshSingla} email="arsh98@uvic.com" name="Arsh Singla" role="" />
 					<Headshot />
 					<Headshot />
 					<Headshot />
