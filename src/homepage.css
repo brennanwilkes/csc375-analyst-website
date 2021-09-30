@@ -69,8 +69,12 @@ header h2{
 	margin: 0.25rem;
 }
 
-.Homepage > div{
+.Homepage > section{
 	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 header + div{
@@ -156,15 +160,70 @@ header + div{
 	transition: transform 0.2s;
 }
 
+section:nth-of-type(n+2){
+	max-width: 95vw;
+	justify-content: flex-start;
+}
+
+section:nth-of-type(n+2) h2{
+	margin-top: 5vh;
+	color: var(--uvic-blue);
+	font-size: 38pt;
+	font-weight: bold;
+}
+
+section:nth-of-type(n+2) h3{
+	margin-bottom: 5vh;
+	color: var(--uvic-engineering);
+	font-size: 20pt;
+}
+
+section:nth-of-type(n+2) h2,
+section:nth-of-type(n+2) h3{
+	text-align: center;
+}
+section:nth-of-type(n+2) h2::after{
+	display:block;
+	content: "";
+	border-bottom: 2px solid var(--uvic-red);
+	margin-bottom: 1vh;
+	padding-bottom: 1vh;
+}
+
 @media only screen and (min-width: 1160px) {
 	.arrow:hover{
 		transform: scale(1.5);
 		cursor: pointer;
 	}
+
+	section:nth-of-type(n+2){
+		width: 100vw;
+		align-items: flex-start !important;
+	}
+
+	section:nth-of-type(n+2) > div,
+	section:nth-of-type(n+2) p{
+		margin-left: 10vh;
+		width: var(--header-width);
+		max-width: var(--header-width);
+	}
+
+	section:nth-of-type(n+2) > div > *{
+		width: 100%;
+	}
+
+	section:nth-of-type(2) > div{
+		margin-top: 20vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 1160px) {
-	.Homepage > div:first-of-type{
+	.Homepage > section{
 		width: 95vw;
 		display: flex;
 		flex-direction: column;

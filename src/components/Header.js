@@ -5,9 +5,9 @@ const Header = (props) => (
 		<h1>CSC 375: Group 7</h1>
 		<h2>System Analysis Solutions</h2>
 		<div>
-			<HeaderSubLink name="Mission Statement" />
+			<HeaderSubLink name="Mission Statement" href="#mission-statement" target="" />
+			<HeaderSubLink name="Current Project" href="#current-project" target="" />
 			<HeaderSubLink name="Important Documents" />
-			<HeaderSubLink name="Current Project" />
 			<HeaderSubLink name="Contact Us" />
 		</div>
 		{
