@@ -7,6 +7,8 @@ import ChrisWong from "./headshots/chriswong.jpg";
 import Headshot from "./components/Headshot";
 import Header from "./components/Header";
 import DownArrow from "./components/DownArrow";
+import Housing from "./housing.svg";
+import Birds from "./uvic-birds.png";
 
 /*
 Arsh Singla - arsh98@uvic.com
@@ -53,6 +55,7 @@ function Homepage() {
 				<p>
 					Our company provides professional software and system solutions to clients from a range of businesses. While most of our clients are focused in the region of Victoria, we open our doors to clients from around British Columbia seeking to find the right and reliable professionals for software and system deployment, upgrade, installation, and maintenance.
 				</p>
+				<img src={Birds} className="Birds" />
 			</section>
 			<section id="project">
 				<div>
@@ -69,6 +72,7 @@ function Homepage() {
 				<p>
 					Housing Consolidator (HOCO) is an organization located in the Victoria region that aims to develop the right tool to help renters search for housing in the Capital Regional District .
 				</p>
+				<img src={Housing} className="Housing" />
 			</section>
 			<section id="documents">
 				<div>
