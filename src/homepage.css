@@ -212,8 +212,8 @@ section:nth-of-type(n+2) h2::after{
 		width: 100%;
 	}
 
-	section:nth-of-type(2) > div{
-		margin-top: 20vh;
+	section:nth-of-type(n+2) > div{
+		margin-top: 5vh;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

@@ -8,7 +8,7 @@ const Header = (props) => (
 			<HeaderSubLink name="Mission Statement" href="#mission-statement" target="" />
 			<HeaderSubLink name="Current Project" href="#current-project" target="" />
 			<HeaderSubLink name="Important Documents" />
-			<HeaderSubLink name="Contact Us" />
+			<HeaderSubLink name="Contact Us" href="mailto:systemanalysissolution@gmail.com" />
 		</div>
 		{
 			props.children
