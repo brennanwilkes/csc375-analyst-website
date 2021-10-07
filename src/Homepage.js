@@ -86,7 +86,7 @@ function Homepage() {
 					<ul>
 						<Document href="RFP.pdf" label="Request For Proposal" />
 						<Document href="GANTT.pdf" label="GANTT Chart" />
-						<Document label="Project Charter" />
+						<Document href="Project-Charter.pdf" label="Project Charter" />
 						<Document label="Requirements Report Version 1.0" />
 						<Document label="Requirements Report Version 2.0" />
 						<Document label="Requirements Report Version 3.0" />
